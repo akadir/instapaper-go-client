@@ -6,17 +6,6 @@ before:
     - go mod tidy
 builds:
   - skip: true
-
-builds:
-  - env:
-      - CGO_ENABLED=0
-    goos:
-      - linux
-      - windows
-      - darwin
-    goarch:
-      - arm64
-      - amd64
 archives:
   - replacements:
       amd64: 64bit
