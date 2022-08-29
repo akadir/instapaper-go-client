@@ -1,4 +1,4 @@
-module github.com/ochronus/instapaper-go-client
+module github.com/akadir/instapaper-go-client
 
 go 1.15
 
