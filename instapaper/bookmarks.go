@@ -19,7 +19,7 @@ type Bookmark struct {
 	Title             string
 	URL               string
 	ProgressTimestamp int64 `json:"progress_timestamp"`
-	Time              float32
+	Time              int64
 	Progress          float32
 	Starred           string
 }
